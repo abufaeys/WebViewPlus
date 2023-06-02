@@ -17,7 +17,7 @@ This is a simple browser app that allows you to open web pages and navigate thro
 ## Requirements
 
 
-    iOS 11.0+
+    iOS 13.0+
 
     Xcode 12.0+
 
