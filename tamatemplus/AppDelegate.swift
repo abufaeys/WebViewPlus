@@ -2,7 +2,7 @@
 //  AppDelegate.swift
 //  tamatemplus
 //
-//  Created by Ali Al-Harbi on 02/06/2023.
+//  Created by mohammad abushalhoob on 02/06/2023.
 //
 
 import UIKit
@@ -10,10 +10,11 @@ import UIKit
 @main
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-
+    var window: UIWindow?
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        windowInit()
         return true
     }
 
@@ -34,3 +35,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 }
 
+extension AppDelegate{
+    // init windows to handle ios less than 13.0
+        func windowInit() {
+            if #available(iOS 13, *) {
+                
+            }else{
+                self.window = UIWindow.init()
+                self.window?.bounds = UIScreen.main.bounds
+                window?.rootViewController = OpenBrowserViewController()
+                window?.makeKeyAndVisible()
+            }
+        }
+}
