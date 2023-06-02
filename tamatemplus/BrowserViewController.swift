@@ -12,6 +12,8 @@ final class BrowserViewController: UIViewController {
     private var browserView: BrowserView!
     private var observation: NSKeyValueObservation? = nil
     
+    let initLink = "https://tamatemplus.com"
+    
     override func loadView() {
         browserView = BrowserView()
         view = browserView
@@ -27,7 +29,7 @@ final class BrowserViewController: UIViewController {
         setupActions()
         
         // Load the initial URL
-        if let url = URL(string: "https://tamatemplus.com") {
+        if let url = URL(string: initLink) {
             browserView.webView.load(URLRequest(url: url))
         }
         
