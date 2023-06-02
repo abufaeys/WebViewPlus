@@ -1,8 +1,8 @@
-#Browser App
+# WebViewPlus
 
 This is a simple browser app that allows you to open web pages and navigate through them. It provides basic functionality such as going back and forward, refreshing the page, and closing the browser.
 
-##Features
+## Features
 
 
     Open web pages and browse the internet within the app.
@@ -14,7 +14,7 @@ This is a simple browser app that allows you to open web pages and navigate thro
     Close the browser and return to the previous screen.
 
 
-##Requirements
+## Requirements
 
 
     iOS 11.0+
@@ -24,7 +24,7 @@ This is a simple browser app that allows you to open web pages and navigate thro
     Swift 5.0+
 
 
-##Installation
+## Installation
 
 
     Clone the repository or download the source code files.
@@ -34,14 +34,12 @@ This is a simple browser app that allows you to open web pages and navigate thro
     Build and run the app on a simulator or a physical device.
 
 
-##Usage
+## Usage
 
 
     Launch the app and tap the "Open Browser" button.
 
     The browser view will appear, showing a progress bar at the top.
-
-    Enter a URL or select a bookmarked URL from the browser.
 
     The web page will load and the progress bar will indicate the loading progress.
 
@@ -52,15 +50,15 @@ This is a simple browser app that allows you to open web pages and navigate thro
     To close the browser, tap the close button or dismiss the browser view.
 
 
-##Contributions
+## Contributions
 
 Contributions to this project are welcome. If you find any issues or have suggestions for improvements, please open an issue or submit a pull request.
 
-##License
+## License
 
 This project is licensed under the MIT License. Feel free to use, modify, and distribute the code as permitted by the license.
 
-##Acknowledgements
+## Acknowledgements
 
 The browser app is built using UIKit and WebKit frameworks provided by Apple.
 
